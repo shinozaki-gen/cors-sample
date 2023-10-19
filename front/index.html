@@ -1,0 +1,20 @@
+<html>
+<body>
+  <h1>Hello World!</h1>  
+  <button onclick="fetchApi('success.php')">success</button>
+  <button onclick="fetchApi('fail.php')">fail</button>
+
+</body>
+<script>
+  function fetchApi(file)
+  {
+    fetch(`http://localhost:8101/${file}`)
+    .then(data => 
+      alert('status.ok')
+     )
+    .catch(error => 
+      alert(error.message)
+    );
+  }
+</script>
+</html>

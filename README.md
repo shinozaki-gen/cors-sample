@@ -5,20 +5,20 @@ docker-compose up -d
 
 Port番号の 8100と8101をあけておいてください
 
-# コード構成
-front/index.html
+# 構成
+[front/index.html](front/index.html)
 
 http://localhost:8100
 
 で表示されるHTMLになります。
 
-api/
+[api/](api/)
 
 success.php
 
 fail.php
 
-がありますのでどのような処理をしてCORS対応をしているか確認してみてください
+どのような処理をしてCORS対応をしているか確認してみてください
 
 # 動作確認
 http://localhost:8100

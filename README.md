@@ -14,9 +14,8 @@ http://localhost:8100
 
 [api/](api/)
 
-success.php
-
-fail.php
+#### success.php
+#### fail.php
 
 どのような処理をしてCORS対応をしているか確認してみてください
 

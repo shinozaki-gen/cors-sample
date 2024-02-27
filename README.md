@@ -18,7 +18,7 @@ success.php
 
 fail.php
 
-どのような処理をしてCORS対応をしているか確認してみてください
+どのような処理をして　CORS　対応をしているか確認してみてください
 
 # 動作確認
 http://localhost:8100
@@ -26,6 +26,6 @@ http://localhost:8100
 
 ↑
 のような画面が表示されます
-successボタンを押すとCORSエラーにならないで
-failボタンを押すとCORSエラーになります。
-DevToolでどのようなHeader情報になっているか確認してみてください。
+successボタンを押すと　CORS　エラーにならないで
+failボタンを押すと　CORS　エラーになります。
+DevTool　でどのような　Header　情報になっているか確認してみてください。
